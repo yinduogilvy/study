@@ -39,7 +39,7 @@
 # ES6指南系列
 - http://segmentfault.com/a/1190000002920859
 - http://segmentfault.com/a/1190000003021261
-- http://segmentfa[图片]ult.com/a/1190000003097911
+- http://segmentfault.com/a/1190000003097911
 - http://segmentfault.com/a/1190000003781467
 - http://segmentfault.com/a/1190000004100661
 
