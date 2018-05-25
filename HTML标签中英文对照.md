@@ -26,7 +26,6 @@
 | option | option | 选项，放在 select 标签对中 | ```<select><option></option></select>``` |必须放在 select/optgroup标签里面 |
 | optgroup | option group | 对选项进行分组，放在 select 标签对中 | ```<select><optgroup><option></option></optgroup></select>``` |必须放在 select标签里面 |
 | textarea |textarea | 多行文本输入框 | ```<textarea></textarea>``` | 多行文本输入框 |
-
 | label | label | 标签 | ```<label></label>``` | 仅用于 对 input 输入框的解释 |
 | button | button | 按钮 | ```<button>我是一个按钮</button>``` | 按钮，属性type="submit"时，用于提交表单内容|
 |img | image | 图片 | ```<img src="图片地址" /> ``` | 标签对 |
