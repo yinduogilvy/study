@@ -16,9 +16,9 @@
 | ul | unorder list | 无序列表 | ```<ul></ul>``` | 标签对 |
 | li | list item | 列表项目 | ```<li></li>``` ```<ul><li></li>....<li></li></ul>``` ```<ol><li></li>....<li></li></ol>``` | 标签对 ，必须放在 ol或者ul标签对里面 |
 | dl | definition list | 定义列表，用于 解释名词 | ``` <dl></dl>```| 标签对 |
-| dt | definition list term/title | 要定义的术语 | ``` \<dt\>前端工程师\</dt\> ```` | 标签对,必须放在dl中 |
-| dd | definition list description | 要定义的解释 | ```<dd>前端工程师就是XXXX</dd>```` ```<dl><dt></dt><dd></dd>....<dt></dt><dd></dd></dl>| 标签对,必须放在dl中 |
-| div | division | 分割区域 | ```<div></div>```` | 主要用于 页面布局分割，没有实际意义 |
+| dt | definition list term/title | 要定义的术语 | ```<dt>前端工程师</dt\> ``` | 标签对,必须放在dl中 |
+| dd | definition list description | 要定义的解释 | ```<dd>前端工程师就是XXXX</dd>``` ```<dl><dt></dt><dd></dd>....<dt></dt><dd></dd></dl>```| 标签对,必须放在dl中 |
+| div | division | 分割区域 | ```<div></div>``` | 主要用于 页面布局分割，没有实际意义 |
 | span | span | 范围 | ```<span></span>``` | 用于 无意义的 内容包含|
 | form | form | 表单 | ```<form></form>``` | 表单，用户将用户的信息提交 |
 | input | input | 输入框 ，单行| ```<input type="text"/>``` | 用于用户输入内容 |
@@ -29,10 +29,10 @@
 | label | label | 标签 | ```<label></label>``` | 仅用于 对 input 输入框的解释 |
 | button | button | 按钮 | ```<button>我是一个按钮</button>``` | 按钮，属性type="submit"时，用于提交表单内容|
 |img | image | 图片 | ```<img src="图片地址" /> ``` | 标签对 |
-|table | table| 表格 | ```<table></table>```` | |
-|tr | table row| 表格行 | ```<table><tr></tr> </table>```` | 必须放在 table 标签对里 |
-|td | table data cell| 单元格 | ```<table><tr><td></td></tr></table>```` | 必须放在 tr 标签对里 |
-|th | table header cell| 表格的表头,与td相同，只不过文字 加粗 | ```<table><tr><th></th></tr></table>```` | 必须放在 tr 标签对里 |
+|table | table| 表格 | ```<table></table>``` | |
+|tr | table row| 表格行 | ```<table><tr></tr> </table>``` | 必须放在 table 标签对里 |
+|td | table data cell| 单元格 | ```<table><tr><td></td></tr></table>``` | 必须放在 tr 标签对里 |
+|th | table header cell| 表格的表头,与td相同，只不过文字 加粗 | ```<table><tr><th></th></tr></table>``` | 必须放在 tr 标签对里 |
 | audio | audio | 音频 | ```<audio src="">您的浏览器不支持audio</audio>``` | 音频 |
 | video | video | 视频 | ```<video src="">您的浏览器不支持video</video>``` | 视频 |
 
