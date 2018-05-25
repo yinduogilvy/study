@@ -16,7 +16,7 @@
 | ul | unorder list | 无序列表 | ```<ul></ul>``` | 标签对 |
 | li | list item | 列表项目 | ```<li></li>``` ```<ul><li></li>....<li></li></ul>``` ```<ol><li></li>....<li></li></ol>``` | 标签对 ，必须放在 ol或者ul标签对里面 |
 | dl | definition list | 定义列表，用于 解释名词 | ``` <dl></dl>```| 标签对 |
-| dt | definition list term/title | 要定义的术语 | ```<dt>前端工程师</dt>```` | 标签对,必须放在dl中 |
+| dt | definition list term/title | 要定义的术语 | ``` \<dt\>前端工程师\</dt\> ```` | 标签对,必须放在dl中 |
 | dd | definition list description | 要定义的解释 | ```<dd>前端工程师就是XXXX</dd>```` ```<dl><dt></dt><dd></dd>....<dt></dt><dd></dd></dl>| 标签对,必须放在dl中 |
 | div | division | 分割区域 | ```<div></div>```` | 主要用于 页面布局分割，没有实际意义 |
 | span | span | 范围 | ```<span></span>``` | 用于 无意义的 内容包含|
