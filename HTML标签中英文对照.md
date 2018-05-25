@@ -7,17 +7,17 @@
 | meta | meta | 元信息，文档的相关信息，作者等 | ```<meta name="" content=""/>``` | 单标签 ，放在head标签对里面|
 | style | style | 页面CSS样式 | ```<style></style>``` | 标签对，放在 head 标签对里面|
 | link | link | 引用外部CSS样式文件 | ```<link rel="stylesheet" href="css文件路径"/>```| 单标签，放在 head标签对里面 |
-| script | script | 脚步标签，JavaScript (JS)脚本 | ```<script></script>``` ```<script src="外部JS 的路径"><script>``` | 放在head标签对里面或者 body标签对里面或者后面 |
+| script | script | 脚步标签，JavaScript (JS)脚本 | ```<script></script>``` <br/>```<script src="外部JS 的路径"><script>``` | 放在head标签对里面或者 body标签对里面或者后面 |
 | body | body | 页面主体内容，显示在浏览器中  | ```<body></body>``` | 标签对  |
-| h1~h6 | heading | 标题(Heading)元素拥有六个不同的级别，\<h1\> 是最高级的，而 \<h6\> 则是最低的级别 | ```<h1>字体最大</h1>``` ```...``` ```<h6>字体最小</h6>``` | 标签对 |
+| h1~h6 | heading | 标题(Heading)元素拥有六个不同的级别，\<h1\> 是最高级的，而 \<h6\> 则是最低的级别 | ```<h1>字体最大</h1>```<br/> ```...``` <br/>```<h6>字体最小</h6>``` | 标签对 |
 | a | anchor | 超链接 | ```<a href="超链接地址">需要超链接的文字或者图片等</a>``` | 标签对 |
 | p | paragraph | 段落 | ```<p></p> ```| 标签对  |
 | ol | order list | 有序列表 | ```<ol></ol>``` | 标签对 |
 | ul | unorder list | 无序列表 | ```<ul></ul>``` | 标签对 |
-| li | list item | 列表项目 | ```<li></li>``` ```<ul><li></li>....<li></li></ul>``` ```<ol><li></li>....<li></li></ol>``` | 标签对 ，必须放在 ol或者ul标签对里面 |
-| dl | definition list | 定义列表，用于 解释名词 | ``` <dl></dl>```| 标签对 |
+| li | list item | 列表项目 | ```<li></li>```<br/>```<ul><li></li>....<li></li></ul>```<br/>```<ol><li></li>....<li></li></ol>``` | 标签对 ，必须放在 ol或者ul标签对里面 |
+| dl | definition list | 定义列表，用于 解释名词 | ```<dl></dl>```| 标签对 |
 | dt | definition list term/title | 要定义的术语 | ```<dt>前端工程师</dt\> ``` | 标签对,必须放在dl中 |
-| dd | definition list description | 要定义的解释 | ```<dd>前端工程师就是XXXX</dd>``` ```<dl><dt></dt><dd></dd>....<dt></dt><dd></dd></dl>```| 标签对,必须放在dl中 |
+| dd | definition list description | 要定义的解释 | ```<dd>前端工程师就是XXXX</dd>```<br/>```<dl><dt></dt><dd></dd>....<dt></dt><dd></dd></dl>```| 标签对,必须放在dl中 |
 | div | division | 分割区域 | ```<div></div>``` | 主要用于 页面布局分割，没有实际意义 |
 | span | span | 范围 | ```<span></span>``` | 用于 无意义的 内容包含|
 | form | form | 表单 | ```<form></form>``` | 表单，用户将用户的信息提交 |
